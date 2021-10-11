@@ -1,14 +1,14 @@
 2021.10.11
 [package.json]
 @nestjs/platform-express
- : Lets nest use Express JS for handling HTTP requests.
+: Lets nest use Express JS for handling HTTP requests.
 
 reflect-metadata
- : Helps make decorators work.
+: Helps make decorators work.
 
 [Server]
 Request ->
-Pipe : Validate data contained in the request -> 
+Pipe : Validate data contained in the request ->
 Guard : Make sure the user is authenticated ->
 Controller : Route the request to a particular function ->
 Service : Run some business logic ->
@@ -25,3 +25,4 @@ Guards: Handles authentication.
 Interceptors: Adds extra logic to incoming requests or outgoing responses.
 Repositories: Handles data stored in a DB.
 
+[File Naming Conventions]
